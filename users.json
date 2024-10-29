@@ -1,0 +1,105 @@
+{
+    "users": [
+      {
+        "id": 1,
+        "email": "user1@gmail.com",
+        "password": "password001"
+      },
+      {
+        "id": 2,
+        "email": "user2@gmail.com",
+        "password": "password002"
+      },
+      {
+        "id": 3,
+        "email": "user3@gmail.com",
+        "password": "password003"
+      },
+      {
+        "id": 4,
+        "email": "user4@gmail.com",
+        "password": "password004"
+      },
+      {
+        "id": 5,
+        "email": "user5@gmail.com",
+        "password": "password005"
+      },
+      {
+        "id": 6,
+        "email": "user6@gmail.com",
+        "password": "password006"
+      },
+      {
+        "id": 7,
+        "email": "user7@gmail.com",
+        "password": "password007"
+      },
+      {
+        "id": 8,
+        "email": "user8@gmail.com",
+        "password": "password008"
+      },
+      {
+        "id": 9,
+        "email": "user9@gmail.com",
+        "password": "password009"
+      },
+      {
+        "id": 10,
+        "email": "user10@gmail.com",
+        "password": "password010"
+      },
+      {
+        "id": 11,
+        "email": "user11@gmail.com",
+        "password": "password011"
+      },
+      {
+        "id": 12,
+        "email": "user12@gmail.com",
+        "password": "password012"
+      },
+      {
+        "id": 13,
+        "email": "user13@gmail.com",
+        "password": "password013"
+      },
+      {
+        "id": 14,
+        "email": "user14@gmail.com",
+        "password": "password014"
+      },
+      {
+        "id": 15,
+        "email": "user15@gmail.com",
+        "password": "password015"
+      },
+      {
+        "id": 16,
+        "email": "user16@gmail.com",
+        "password": "password016"
+      },
+      {
+        "id": 17,
+        "email": "user17@gmail.com",
+        "password": "password017"
+      },
+      {
+        "id": 18,
+        "email": "user18@gmail.com",
+        "password": "password018"
+      },
+      {
+        "id": 19,
+        "email": "user19@gmail.com",
+        "password": "password019"
+      },
+      {
+        "id": 20,
+        "email": "user20@gmail.com",
+        "password": "password020"
+      }
+    ]
+  }
+  
