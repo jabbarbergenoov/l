@@ -1,0 +1,84 @@
+:root{
+  --red: #580000;
+  --gray: #e2e2e2;
+}
+
+body{
+  box-sizing: border-box;
+}
+
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.card{
+  height: 100px;
+  width: 500px;
+  background-color: var(--gray);
+  border: 1px solid white;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+
+.card:nth-child(even) .inside {
+  height: 100px;
+  width: 100px;
+  float: right;
+  background-color: var(--red);
+  border-radius: 50% 0 0 50%;
+}
+
+.card:nth-child(odd) .inside {
+  height: 100px;
+  width: 100px;
+  float: left;
+  background-color: var(--red);
+  border-radius: 0 50% 50% 0;
+}
+
+.inside{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: inset 3px 3px 5px #1a1a1a;
+}
+
+.circle{
+  height: 60px;
+  width: 60px;
+  background-color: var(--gray);
+  border-radius: 50%;
+  box-shadow: 3px 3px 5px #1a1a1a;
+  color: var(--red);
+  font-weight: bold;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.card:nth-child(even) .text {
+  float: left;
+}
+.card:nth-child(odd) .text {
+  float: right;
+}
+
+.header{
+  font-weight: bold;
+  color: var(--red);
+  font-size: 18px;
+}
+
+.content{
+  font-size: 14px;
+  color: #A0A0A0;
+}
+
