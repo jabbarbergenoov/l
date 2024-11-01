@@ -13,6 +13,12 @@ form.addEventListener('submit', async (e) => {
         });
         const result = await res.json();
         document.getElementById('response-message').textContent = result.message || 'Muvaffaqiyatli roʻyxatdan oʻtdingiz!';
+
+        if (e) {
+            document.getElementById('response-message').textContent = 'Xatolik yuz berdi.';
+        } else {
+            location.href = "index.html";
+        }
     } catch {
         document.getElementById('response-message').textContent = 'Xatolik yuz berdi.';
     }
